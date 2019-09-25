@@ -15,6 +15,3 @@ FOUNDATION_EXPORT double ContractsVersionNumber;
 FOUNDATION_EXPORT const unsigned char ContractsVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Contracts/PublicHeader.h>
-
-
-#import Contracts-Swift.h
