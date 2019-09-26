@@ -138,15 +138,15 @@ extension StockQuoteResponse: SwiftProtobuf.Message, SwiftProtobuf._MessageImple
 extension StockQuote: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
   public static let protoMessageName: String = _protobuf_package + ".StockQuote"
   public static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
-    1: .unique(proto: "symbol", json: "1. symbol"),
-    2: .unique(proto: "open", json: "2. open"),
-    3: .unique(proto: "high", json: "3. high"),
-    4: .unique(proto: "low", json: "4. low"),
-    5: .unique(proto: "price", json: "5. price"),
-    6: .unique(proto: "volume", json: "6. volume"),
-    7: .unique(proto: "latestTradingDay", json: "7. latest trading day"),
-    8: .unique(proto: "previousClose", json: "8. previous close"),
-    9: .unique(proto: "change", json: "9. change"),
+    1: .unique(proto: "symbol", json: "01. symbol"),
+    2: .unique(proto: "open", json: "02. open"),
+    3: .unique(proto: "high", json: "03. high"),
+    4: .unique(proto: "low", json: "04. low"),
+    5: .unique(proto: "price", json: "05. price"),
+    6: .unique(proto: "volume", json: "06. volume"),
+    7: .unique(proto: "latestTradingDay", json: "07. latest trading day"),
+    8: .unique(proto: "previousClose", json: "08. previous close"),
+    9: .unique(proto: "change", json: "09. change"),
     10: .unique(proto: "changePercent", json: "10. change percent"),
   ]
 
