@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30761AE2FE803358DCDF7B11 /* stockQuote.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC7DF70B071FE0B469E9E4 /* stockQuote.pb.swift */; };
-		5363A5C31AD3CCE24FA05112 /* stockSymbol.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33964E10773F42858CD080D /* stockSymbol.pb.swift */; };
+		32355AA8A1E3474BA30CAAD2 /* stockSymbol.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE34729615F57C6EA7A7AD /* stockSymbol.pb.swift */; };
+		413751B767DE984DEAAEECC2 /* stockQuote.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CB13CCA05D5640E55FFA75 /* stockQuote.pb.swift */; };
 		7B4F57FE8B938FD7F1E9FD45 /* Contracts.h in Headers */ = {isa = PBXBuildFile; fileRef = DECDC3D828F43936731FC052 /* Contracts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94DBE0C8929D8619F0D18C9D /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9ED72DFD3FFF70CB9925A0A /* SwiftProtobuf.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		44AC7DF70B071FE0B469E9E4 /* stockQuote.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stockQuote.pb.swift; sourceTree = "<group>"; };
 		5BA445023C32CE493D896DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A33964E10773F42858CD080D /* stockSymbol.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stockSymbol.pb.swift; sourceTree = "<group>"; };
+		81CB13CCA05D5640E55FFA75 /* stockQuote.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stockQuote.pb.swift; sourceTree = "<group>"; };
 		BF27E2F0D629D0C78BE2E9E4 /* Contracts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Contracts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DE34729615F57C6EA7A7AD /* stockSymbol.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stockSymbol.pb.swift; sourceTree = "<group>"; };
 		D9ED72DFD3FFF70CB9925A0A /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftProtobuf.framework; sourceTree = "<group>"; };
 		DECDC3D828F43936731FC052 /* Contracts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contracts.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,13 +42,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C0DEA72533BE3B13E45ACAF /* src */ = {
+		ADB07F629B756EE3F8603CFC /* models */ = {
 			isa = PBXGroup;
 			children = (
-				44AC7DF70B071FE0B469E9E4 /* stockQuote.pb.swift */,
-				A33964E10773F42858CD080D /* stockSymbol.pb.swift */,
+				81CB13CCA05D5640E55FFA75 /* stockQuote.pb.swift */,
+				D9DE34729615F57C6EA7A7AD /* stockSymbol.pb.swift */,
 			);
-			path = src;
+			path = models;
 			sourceTree = "<group>";
 		};
 		BCC796DFC0FC43BA4446870F /* Contracts */ = {
@@ -56,7 +56,7 @@
 			children = (
 				DECDC3D828F43936731FC052 /* Contracts.h */,
 				5BA445023C32CE493D896DFB /* Info.plist */,
-				7C0DEA72533BE3B13E45ACAF /* src */,
+				ADB07F629B756EE3F8603CFC /* models */,
 			);
 			path = Contracts;
 			sourceTree = "<group>";
@@ -139,8 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30761AE2FE803358DCDF7B11 /* stockQuote.pb.swift in Sources */,
-				5363A5C31AD3CCE24FA05112 /* stockSymbol.pb.swift in Sources */,
+				413751B767DE984DEAAEECC2 /* stockQuote.pb.swift in Sources */,
+				32355AA8A1E3474BA30CAAD2 /* stockSymbol.pb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
