@@ -1,0 +1,11 @@
+name: Contracts
+options:
+  bundleIdPrefix: me.vaivin
+targets:
+  Contracts:
+    type: framework
+    platform: iOS
+    deploymentTarget: "11.0"
+    sources: [Contracts] 
+    dependencies:
+      - framework: SwiftProtobuf.framework
